@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IIT BBS FESTS</title>
+    <meta name="description" content="Use a free Google Firebase Database to allow visitors to leave comments on your web pages. From https://AlanSimpson.me/firebase">      
+    <meta name="author" content="Alan Simpson">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     
+      
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- Vue JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script>
+    <!-- jQuery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  </head>
+  
+  <body>
+
+    <div id="header">
+      <div id="bigheading">
+        <p id="mainHeading">IIT BBS Fests </p>  
+      </div>
+
+      <div id="smallheading">
+        <p id="submainHeading">IIT BBS Fests </p>  
+         
+        <button id="homeBTN" onclick="goHome()">Home</button>
+        <button id="homeBTN" onclick="commentf()">Comment </button>  
+      </div>
+      
+    </div>
+
+    <div id="fakeheader">
+      <p id="mainHeading">IIT BBS Fests Portal </p>
+    </div>
+   
+
+    <div class="main-block" id="main-menu">
+      <h1> Welcome to <br>IIT BBS Fests Portal</h1>
+     
+      <div class="form">      
+        <hr>
+        <div class="account-type">
+         
+        </div>
+        <hr>
+        <div class="btn-block" id="mailSubmitBtnId1">          
+          <button type="submit" onclick="fest1()">Alma festa</button>
+        </div>             
+        <hr>
+        <div class="btn-block" id="mailSubmitBtnId2">          
+          <button type="submit" onclick="fest2()">Wissenaire</button>
+        </div>             
+        <hr>
+        <div class="btn-block" id="mailSubmitBtnId3">          
+          <button type="submit" onclick="fest3()">Ashwamedha</button>
+        </div>             
+        <hr>              
+        <!-- <p>By clicking Register, you agree on our Privacy Policy for W3Docs.</p> -->
+      </div>
+    </div>
+
+
+    <div id=alma>
+      <div class=almafest>
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <h2>write your experiences/comments</h2>
+      </div>
+      </div>
+
+
+
+      <div id=wiss>
+      <div class=almafest>
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <h2>write your experiences/comments</h2>
+       
+        </div>
+
+      </div>
+
+      
+      <div id=ashwamedha>
+      <div class=almafest>
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <img src="http://4everstatic.com/pictures/850xX/art/music/concert,-crowd,-fans,-hands-256355.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+        <h2>write your experiences/comments</h2>
+      
+       </div>
+    </div>
+  
+    
+
+    <div id="allcomments">
+
+      <h3>Comments</h3>
+      <!-- We will show past comments in the list below-->
+      <ul id="pastcomments"></ul>
+      <!-- This is the form for entering a new comment -->
+      <form id="newcomment">
+        <label for="tbName">First Name or Initials</label>
+        <br>
+        <input id="tbName" type="text" maxlength="20" required>
+        <br>
+        <label for="txComment">Your Comment / Question</label>
+        <br>
+        <textarea id="txComment" maxlength="4096" required style="width:96%"></textarea>
+        <br>
+        <input type="submit" id="btnSubmitComment" value="Submit Comment">
+      </form>
+    </div>
+    <!-- Connection to Firebase -->
+   
+   
+
+      
+     
+  </body>
+      <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+      <script src="script.js"></script>
+    
+</html>
