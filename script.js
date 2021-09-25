@@ -125,7 +125,7 @@ function commentf(){
                 var when = new Date(itemData.when).toLocaleDateString("en-us");
                 showat.innerHTML += "<li>" + comment + "<span> -- " + name + " (" + when +
                     ")</span></li>";
-                    commentf();
+                   
             })
         })
         
